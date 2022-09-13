@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #162027;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+img {
+    max-width: 350px;
+    height: auto;
+}
+
+.ingredient-container{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+
+.ingredient-head{
+    font-size: 48px;
+    text-align: center;
+}
+
+.ingredient-column,
+.ingredient-img {
+    background-color: #1f2937;
+    display:flex;
+}
+
+.ingredient-column {
+    justify-content: space-evenly;
+}
+
+.ingredient-img{
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    
+}
+
+.ingredient-info{
+    max-width: 300px;
+    gap: 45px;
+    padding: 10px;
+}
+
+
+
+.style-container{
+    color:#f9faf8;
+    background-color: #222337;
+}
+
+.style-head{
+    color: #f9faf8;
+    font-size: 48px;
+    text-align: center;
+}
+
+.bowl-container{
+    color: #f9faf8;
+    background-color: #1f372b;
+}
+
+.bowl-head{
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.email-container{
+    background-color: #16271e;
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
