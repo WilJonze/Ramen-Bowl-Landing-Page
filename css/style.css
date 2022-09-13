@@ -4,10 +4,11 @@ body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-header {
+.header {
     background-color: #162027;
     color: #f9faf8;
     font-size: 24px;
+    display: flex;
 }
 
 img {
@@ -15,10 +16,32 @@ img {
     height: auto;
 }
 
+.navbar-container{
+    color:#f9faf8;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+    
+}
+
+.navbar{
+
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.link{
+    color: #f9faf8;
+    text-decoration: none;
+}
+
 .ingredient-container{
     background-color: #1f2937;
     color: #f9faf8;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
     
 }
 
@@ -63,6 +86,26 @@ img {
     text-align: center;
 }
 
+.style-column,
+.style-img {
+    display:flex;
+}
+
+.style-column{
+    justify-content: space-evenly;
+}
+
+.style-img{
+    flex-direction: column;
+    align-items:center;
+}
+
+.style-info{
+    max-width: 300px;
+    gap: 45px;
+    padding: 10px;
+}
+
 .bowl-container{
     color: #f9faf8;
     background-color: #1f372b;
@@ -71,6 +114,22 @@ img {
 .bowl-head{
     color: #f9faf8;
     font-size: 48px;
+    text-align: center;
+}
+
+.bowl-column,
+.bowl-img {
+    display:flex;
+}
+
+.bowl-column{
+    justify-content: space-evenly;
+}
+
+.bowl-img{
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
 }
 
 .email-container{
