@@ -2,62 +2,92 @@
 
 body{
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-image: url(../img/ramenrestraunt.jpg) ;
+    background-size: cover;
+   
 }
 
-.header {
+header {
     background-color: #162027;
     color: #f9faf8;
     font-size: 24px;
     display: flex;
+    margin-top: 0px;
+
 }
 
 img {
     max-width: 350px;
     height: auto;
+    border-radius: 25%
 }
 
-.navbar-container{
-    color:#f9faf8;
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
-    
-    
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
 }
 
-.navbar{
-
+nav>ul {
     list-style-type: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
+    margin: 0px;
+    padding: 2px;
+    overflow: hidden;
 }
+
+nav>ul>li {
+   padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
 
 .link{
     color: #f9faf8;
     text-decoration: none;
 }
 
-.ingredient-container{
-    background-color: #1f2937;
-    color: #f9faf8;
+.link:hover {
+    color: black;
+}
+
+.ramenlogo {
+    border-radius: 50%;
+    max-width: 75px;
+    max-height: 75px;
+    margin-right: auto;
     
 }
+
+.ramenheader {
+    margin-right: auto;
+}
+
+.ingredient-container{
+    background-color: rgb(31,41,55,0.6);
+    color: #f9faf8;
+    margin: 50px;
+}
+
 
 .ingredient-head{
     font-size: 48px;
     text-align: center;
+    padding: 15px;
 }
 
 .ingredient-column,
 .ingredient-img {
-    background-color: #1f2937;
     display:flex;
 }
 
 .ingredient-column {
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .ingredient-img{
@@ -77,13 +107,15 @@ img {
 
 .style-container{
     color:#f9faf8;
-    background-color: #222337;
+    background-color: rgb(34, 35, 55, 0.6);
+    margin: 50px;
 }
 
 .style-head{
     color: #f9faf8;
     font-size: 48px;
     text-align: center;
+    padding: 15px;
 }
 
 .style-column,
@@ -108,13 +140,15 @@ img {
 
 .bowl-container{
     color: #f9faf8;
-    background-color: #1f372b;
+    background-color: rgb(31, 55, 43,0.6);
+    margin: 50px;
 }
 
 .bowl-head{
     color: #f9faf8;
     font-size: 48px;
     text-align: center;
+    padding: 15px;
 }
 
 .bowl-column,
@@ -133,12 +167,37 @@ img {
 }
 
 .email-container{
-    background-color: #16271e;
+    background-color: rgb(22, 39, 30,0.6);
     color: #f9faf8;
+    text-align:center;
+    padding: 20px;
+    margin: 50px;
 }
 
+input[type=text], input[type=button] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+}
+
+input[type=button] :hover {
+    opacity: 0.8;
+}
+
+
+
 footer {
-    background-color: #1f2937;
-    color: #f9faf8;
-    font-size: 24px;
+    background-color: rgb(31, 41, 55,0.6);
+    color: grey;
+    font-size: 16px;
+    text-align: center;
 }
